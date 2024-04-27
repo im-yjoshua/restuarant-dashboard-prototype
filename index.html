@@ -13,38 +13,60 @@
 </head>
 
 <body>
-    <header>
-        <aside class="sidebar-menu">
-            <h1 class="sidebar-heading">Dashboard</h1>
-            <nav>
-                <ul>
-                    <li>
-                        <a href="#">
-                            <i class="fa-solid fa-house"></i>Home</a>
-                        </li>
-                    <li><a href="#">
+    <!-- SIDEBAR HERE -->
+    <aside class="sidebar-menu">
+        <h1 class="sidebar-heading">Restaurant</h1>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#">
+                        <i class="fa-solid fa-house"></i>Home</a>
+                </li>
+                <li><a href="#">
                         <i class="fa-solid fa-bars"></i>Menu</a>
-                    </li>
-                    <li>
-                        <a href="#"><i class="fa-solid fa-chart-simple">
-                        </i>Orders</a></li>
-                </ul>
-            </nav>
-            <div class="btns">
-                <div class="btn">
-                    <a href="#"><button><i class="fa-solid fa-chart-simple"></i>Settings</button></a>
-                </div>
-                <div class="btn">
-                    <a href="#"><button><i class="fa-solid fa-arrow-right-from-bracket fa-flip-horizontal"></i>Logout</button></a>
-                </div>
+                </li>
+                <li>
+                    <a href="#"><i class="fa-solid fa-chart-simple">
+                        </i>Orders</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="btns">
+            <div class="btn">
+                <a href="#"><button><i class="fa-solid fa-chart-simple"></i>Settings</button></a>
             </div>
-        </aside>
-    </header>
+            <div class="btn">
+                <a href="#"><button><i
+                            class="fa-solid fa-arrow-right-from-bracket fa-flip-horizontal"></i>Logout</button></a>
+            </div>
+        </div>
+    </aside>
 
+    <!-- MAIN CONTENT HERE -->
 
     <main>
-        <div class="container">
-            This is main content
+        <header>
+            <nav class="main-header">
+                <div class="nav-title">
+                    Dashboard
+                </div>
+                <div class="nav-links">
+                    <div class="messages">
+                        <i class="fa-solid fa-message"></i>
+                    </div>
+                    <div class="notifications">
+                        <i class="fa-solid fa-bell"></i>
+                    </div>
+                    <div class="search-bar">
+                        <input type="text" placeholder="Search" >
+                        <i class="fa-solid fa-search"></i>
+                    </div>
+                    <div class="admin-pic">
+                        <i class="fa-solid fa-user"></i>
+                    </div>
+                </div>
+            </nav>
+        </header>
         </div>
     </main>
 </body>
