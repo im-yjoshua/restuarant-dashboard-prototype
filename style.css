@@ -1,0 +1,110 @@
+/* UNIVERSAL STYLING */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  outline: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  letter-spacing: 0.02rem;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+:root {
+  --primary-background-color: #fef9efff;
+  --contrast-background-color: #f4f3efff;
+  --primary-color: #003049ff;
+  --primary-button-color: #c1121fff;
+  --secondary-button-color: #f77f00ff;
+  --primary-text-color: #212529ff;
+  --white-text-color: #ffffff;
+}
+
+body{
+    background-color: var(--primary-background-color);
+    color: var(--primary-text-color);
+    display: flex;
+}
+
+/* SIDEBAR MENU STYLING  */
+
+.sidebar-menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--secondary-button-color);
+    color: var(--primary-text-color);
+    height: 100vh;
+    width: 20vw;
+    padding: 0 20px;
+}
+
+.sidebar-menu .sidebar-heading{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.sidebar-menu nav ul{
+    margin-bottom: 13rem;
+}
+
+.sidebar-menu nav ul li{
+    margin: 1rem 0;
+    padding: 0 3rem;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    background-color: var(--primary-button-color);
+    color: var(--white-text-color);
+}
+.sidebar-menu nav ul li a{
+    color: var(--white-text-color);
+}
+
+.sidebar-menu nav ul li a i {
+    margin-right: 10px;
+}
+
+.sidebar-menu .btns{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sidebar-menu .btn button{
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    background-color: var(--primary-button-color);
+    color: var(--white-text-color);
+}
+.sidebar-menu .btn button i{
+    margin-right: 10px;
+}
+
+.sidebar-menu .btn button a{
+    color: var(--white-text-color);
+}
